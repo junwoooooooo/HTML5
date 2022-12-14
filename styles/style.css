@@ -830,6 +830,39 @@ body {
     linear-gradient(to bottom, #ccc 0%, #eee 35%, #fff 70%, #fff 100%);
 }
 .footer-inner {
-  background: silver;
-  height: 15vh;
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+  
+}
+
+.guide-list{
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 4px 45px;
+  background-color: #7b8385;
+  color: #fff;
+  border-radius: 30px;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.address, .copyright {
+  display: block;
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+.guide-list a{
+  display: block;
+  padding: 6px 10px;
+}
+
+.footer-logo {
+  width: 150px;
+  padding:20px 0 0 35px;
+
+}
+
+.footer-inner-wrapper{
+  flex: 1 1 auto;
+
 }
